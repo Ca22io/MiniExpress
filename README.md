@@ -1,6 +1,6 @@
 # MiniExpress
 
-# Clonando o porjeto usando git
+# Clonando o projeto usando git
 
 git clone 
 
