@@ -1,23 +1,27 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using MiniExpress.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=blog.db";
-
-// 2. Registra o BlogDbContext no sistema de injeção de dependência da aplicação,
-//    configurando-o para usar o SQLite com a string de conexão que definimos.
-builder.Services.AddDbContext<BlogDbContext>(options => options.UseSqlite(connectionString));
-
-// --- FIM DA ADIÇÃO ---
 builder.Services.AddControllers();
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<BdContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
+app.UseAuthorization();
+
+app.MapDefaultControllerRoute();
 
 app.UseHttpsRedirection();
-
 
 app.Run();

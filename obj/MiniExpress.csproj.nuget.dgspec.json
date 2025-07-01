@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\MiniExpress.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\MiniExpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\WebApplication.csproj",
-        "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\MiniExpress.csproj",
+        "projectName": "MiniExpress",
+        "projectPath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\MiniExpress.csproj",
         "packagesPath": "C:\\Users\\ca22i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ca22i\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,17 +38,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.6, )"
             },

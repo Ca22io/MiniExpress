@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4AU9jhIHnAqM+ZZEWGhzEGuGKPq6woQDj4dTrriHEyHLdGa+ztcHgfJ2umBgSUtKIoCBS1YatUW0VmCdlKZB7w==",
+  "dgSpecHash": "dPRkZmK+CLfrAiZgRZ1Q4ruh6BeN8cdLIjANOtXGbfOoRAUhJ2kgBQolZEYpMkebVVJnmf29VjnkoMG895ZLPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\WebApplication\\WebApplication.csproj",
+  "projectFilePath": "C:\\Users\\ca22i\\OneDrive\\Área de Trabalho\\Novapasta\\MiniExpress\\MiniExpress.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ca22i\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\ca22i\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\ca22i\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -23,7 +26,6 @@
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.6\\microsoft.entityframeworkcore.relational.9.0.6.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\9.0.6\\microsoft.entityframeworkcore.sqlite.9.0.6.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.6\\microsoft.entityframeworkcore.sqlite.core.9.0.6.nupkg.sha512",
-    "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.6\\microsoft.entityframeworkcore.tools.9.0.6.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.6\\microsoft.extensions.caching.abstractions.9.0.6.nupkg.sha512",
     "C:\\Users\\ca22i\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.6\\microsoft.extensions.caching.memory.9.0.6.nupkg.sha512",

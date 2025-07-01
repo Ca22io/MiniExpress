@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MiniExpress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("WebApplication")]
-[assembly: System.Reflection.AssemblyTitleAttribute("WebApplication")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+befe2f8ab8034f33449d19dedde48eeae43b3458")]
+[assembly: System.Reflection.AssemblyProductAttribute("MiniExpress")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MiniExpress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

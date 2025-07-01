@@ -1,7 +1,0 @@
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.csproj.AssemblyReference.cache
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfoInputs.cache
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfo.cs
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.csproj.CoreCompileInputs.cache
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.MvcApplicationPartsAssemblyInfo.cs
-c:\Users\ca22i\OneDrive\Área de Trabalho\Novapasta\WebApplication\obj\Debug\net8.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
