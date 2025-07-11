@@ -10,7 +10,7 @@ namespace MiniExpress.Models
 
         public int IdUsuario { get; set; } // Chave Estrangeira para o usuário
         
-        [ForeignKey("IdUsuario")] // Especifica a FK
+        [ForeignKey("IdUsuario"), NotMapped] // Especifica a FK
         public UsuarioModel? Usuario { get; set; } // Propriedade de Navegação para o usuário
 
         [Required, MaxLength(128)]

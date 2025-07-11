@@ -12,7 +12,7 @@ namespace MiniExpress.Models
         // --- Chave Estrangeira para Perfil ---
         public int? IdPerfil { get; set; }
 
-        [ForeignKey("IdPerfil")] // Especifica a FK
+        [ForeignKey("IdPerfil"), NotMapped] // Especifica a FK
         public PerfilModel? Perfil { get; set; } // Propriedade de Navegação
 
         [Required]

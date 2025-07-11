@@ -10,12 +10,12 @@ namespace MiniExpress.Models
 
         public int IdUsuario { get; set; } // Chave estrangeira para o usuário
 
-        [ForeignKey("IdUsuario")] // Especifica a FK
+        [ForeignKey("IdUsuario"), NotMapped] // Especifica a FK
         public UsuarioModel? Usuario { get; set; } // Propriedade de Navegação
 
         public int IdLoja { get; set; } // Chave estrangeira para a loja (opcional)
 
-        [ForeignKey("IdLoja")] // Especifica a FK
+        [ForeignKey("IdLoja"), NotMapped] // Especifica a FK
         public LojaModel? Loja { get; set; } // Propriedade de Navegação
 
         public string? Logradouro { get; set; } // Ex: Rua, Avenida, etc.

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniExpress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+befe2f8ab8034f33449d19dedde48eeae43b3458")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0848faf501a2e80e2748595fd66b08c836b9b691")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniExpress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniExpress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
