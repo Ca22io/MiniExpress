@@ -20,20 +20,25 @@ namespace MiniExpress.Controllers
         [HttpGet]
         public async Task<IActionResult> ObterUsuarios()
         {
-            var usuarios = await _context.Usuarios.ToListAsync();
+            var usuarios = await _context.Usuarios.AsNoTracking().ToListAsync();
 
             return Ok(usuarios);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> ObterUsuario(int id)
+        [HttpGet]
+        public async Task<IActionResult> ObterUsuario([FromBody] int? IdUsuario)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
-
-            if (usuario == null)
+            if (IdUsuario == null || IdUsuario <= 0)
             {
-                return NotFound();
+                return BadRequest("ID do usuário inválido.");
             }
+
+            if (!UsuarioExiste(IdUsuario.Value))
+            {
+                return NotFound("Usuário não encontrado.");
+            }
+
+            var usuario = await _context.Usuarios.AsNoTracking().FirstOrDefaultAsync(u => u.IdUsuario == IdUsuario);
 
             return Ok(usuario);
         }
